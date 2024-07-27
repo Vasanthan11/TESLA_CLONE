@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tesla-clone</title>
+  <link rel="shortcut icon" href="img/favicon.ico"/>
+  <link rel="stylesheet" href="./assests/css/style.css"/>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__announcement">
+      <span>New Model 3 and Model Y vehicles qualify for a federal tax credit for eligible buyers.</span><a href="#">
+        Learn More</a>
+    </div>
+    <div class="header__nav-section">
+      <div>
+        <img class="header__logo" src="./assests/tesla-logo.svg" width="120" />
+      </div>
+      <div>
+        <nav class="header__nav header__nav--main">
+          <a href="#">Model S</a>
+          <a href="#">Model 3</a>
+          <a href="#">Model X</a>
+          <a href="#">Model Y</a>
+          <a href="#">Solar Roof</a>
+          <a href="#">Solar Panel</a>
+          <a href="#">Power wall</a>
+          <div class="header__min-slider"></div>
+        </nav>
+      </div>
+      <div>
+        <nav class="header__nav header__nav--sub">
+          <a href="#">Shop</a>
+          <a href="#">Account</a>
+          <a href="#" class="open-menu">Menu</a>
+        </nav>
+        <nav class="header__nav header__nav--mobile">
+          <a href="#" class="open-menu">Menu</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+
+    <section class="container__section" id="one">
+      <div class="container__content" data-scroll id="content-one">
+        <div class="container__content-header">
+          <h2>Model 3</h2>
+          <p>Leasing starting at $349/mo </p>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Custom order</button>
+          <button class="btn btn-light ml">Demo Drive</button>
+        </div>
+    </section>
+
+    <section class="container__section" id="one">
+      <div class="container__content" data-scroll id="content-one">
+        <div class="container__content-header">
+          <h2>Model Y </h2>
+        
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Custom order</button>
+          <button class="btn btn-light ml">View Inventory</button>
+          <img class="container__down-arrow" src="./assests/down-arrow.svg" width="70" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container__section" id="three">
+      <div class="container__content" data-scroll id="content-three">
+        <div class="container__content-header">
+          <h2>Model S </h2>
+          <a href="#">Schedule a Demo Drive</a>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Custom order</button>
+          <button class="btn btn-light ml">View Inventory</button>
+        </div>
+    </section>
+
+    <section class="container__section" id="four">
+      <div class="container__content" data-scroll id="content-four">
+        <div class="container__content-header">
+          <h2>Model X </h2>
+          <a href="#">Schedule a Demo Drive</a>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Custom order</button>
+          <button class="btn btn-light ml">View Inventory</button>
+        </div>
+    </section>
+
+    <section class="container__section" id="five">
+      <div class="container__content" data-scroll id="content-five">
+        <div class="container__content-header">
+          <h2>Solar Panels </h2>
+          <a href="#">Lowest Cost Solar Panels in America </a>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Order Now</button>
+          <button class="btn btn-light ml">Learn More</button>
+        </div>
+    </section>
+
+    <section class="container__section" id="six">
+      <div class="container__content" data-scroll id="content-six">
+        <div class="container__content-header">
+          <h2>Solar Roof </h2>
+          <a href="#">Produce Clean Energy From Your Roof</a>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Order Now</button>
+          <button class="btn btn-light ml">Learn More</button>
+        </div>
+    </section>
+
+    <section class="container__section" id="seven">
+      <div class="container__content" data-scroll id="content-seven">
+        <div class="container__content-header">
+          <h2>Accessories </h2>
+        </div>
+        <div class="container__content-footer">
+          <button class="btn btn-dark">Shop Now</button>
+
+        </div>
+    </section>
+
+  </main>
+
+  <div class="overlay">
+    <div class="overlay__menu">
+      <div class="overlay__close">
+        <span>&times;</span>
+      </div>
+      <ul>
+        <li>Model S</li>
+        <li>Model 3</li>
+        <li>Model X</li>
+        <li>Model Y</li>
+        <li>Solar Roof</li>
+        <li>Solar Panels</li>
+        <li>Existing Inventory</li>
+        <li>Used Inventory</li>
+        <li>Trade-In</li>
+        <li>Charging</li>
+        <li>Find Us</li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+  <script src="script/tesla-clone.js"></script>
+</body>
+
+</html>
